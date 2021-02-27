@@ -1,0 +1,17 @@
+# создаем класс Notebook
+class Notebook:
+     # создаём атребуты класса
+    Release_dates = "2014"
+    The_country_of_manufacture = "China"
+    Manufacturer_s_company_name = "Asus"
+    Model_name ="FX504"
+
+    # создаём методы класса
+    def start (self):
+         print("Подсветка клавиотуры")
+    def stop (self):
+        print("Продлжительность работы питания")
+
+Notebook_a = Notebook()
+Notebook_b = Notebook()
+Notebook_a.start()
